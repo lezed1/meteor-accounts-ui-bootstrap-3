@@ -7,7 +7,7 @@
       {{displayName}}
       <b class="caret"></b>
     </a>
-    <div class="dropdown-menu col-sm-3">
+    <div class="dropdown-menu col-sm-3 pull-{{align}}">
       {{#if inMessageOnlyFlow}}
         {{> _loginButtonsMessages}}
       {{else}}
@@ -37,7 +37,7 @@
       Sign In / Up
       <b class="caret"></b>
     </a>
-    <div class="dropdown-menu">
+    <div class="dropdown-menu pull-{{align}}">
       {{> _loginButtonsLoggedOutAllServices}}
     </div>
   </li>
